@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import { MyButton } from './lib'
+import { Button } from './lib'
 
 function App() {
   return (
     <div className="App">
-      <MyButton label="test"/>
+      <Button variant="border-gradient">Test</Button>
     </div>
   )
 }
