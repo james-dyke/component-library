@@ -64,8 +64,7 @@ module.exports = {
    
     extend: {
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
-        heading: ['Oswald', 'sans-serif'],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
