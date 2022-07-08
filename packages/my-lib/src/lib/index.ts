@@ -1,2 +1,2 @@
-import '../styles/tailwind.css'
-export { Button } from './Button';
+import '../../tailwind.source.css'
+export { Button } from './Buttons/Button';

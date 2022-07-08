@@ -1,9 +1,9 @@
-import { MyButton } from 'my-lib';
+import { Button } from 'my-lib';
 
 function App() {    
     return (
         <div className="App">
-          <MyButton label="test"/>
+          <Button variant="test"><p className='text-blue-10'>Testing on my sitessss</p></Button>
         </div>
     );
 }

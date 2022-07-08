@@ -20,7 +20,7 @@ function Styles(variant:string){
 function Button({ children, variant }: ButtonProps & JSX.IntrinsicElements["button"]) {
   return (
     <button className={`rounded-full before:rounded-full px-2 border-2 border-white/80 inline-flex text-center transition-all hover:-translate-y-1 ${Styles(variant)}`}>
-      <span className="flex items-center justify-center space-x-2 px-5 py-2">{children}</span>
+      <span className="flex items-center justify-center space-x-2 px-5 py-2 text-blue-70">{children}</span>
     </button>
   )
 };

@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "tsc && vite build && yarn build-tailwind",
     "preview": "vite preview",
-    "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/style.css --minify",
+    "build-tailwind": "npx tailwindcss -o ./dist/style.css",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
