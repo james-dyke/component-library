@@ -2,10 +2,10 @@ name: 'Check typescript'
 on:
   push:
   paths:
-      - packages/src/**
+      - packages/my-lib/src/**
   pull_request:
    paths:
-      - packages/src/**
+      - packages/my-lib/src/**
 jobs:
   typescript:
     name: typescript
