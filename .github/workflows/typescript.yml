@@ -1,8 +1,11 @@
 name: 'Check typescript'
 on:
   push:
+  paths:
+      - packages/src/**
   pull_request:
-
+   paths:
+      - packages/src/**
 jobs:
   typescript:
     name: typescript
